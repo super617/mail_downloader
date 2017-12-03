@@ -8,9 +8,9 @@ import re
 import base64   #base64 Coding
 
 print "POP downloader"
-popsrv = raw_input('please input your mail server IP or Domain£º ')
-addr = raw_input('please input your mail address£º')
-passwd = getpass.getpass('Please input your password£º')
+popsrv = raw_input('please input your mail server IP or Domain:')
+addr = raw_input('please input your mail address:')
+passwd = getpass.getpass('Please input your password:')
 
 
 
